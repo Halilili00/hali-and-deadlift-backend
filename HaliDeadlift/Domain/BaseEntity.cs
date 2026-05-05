@@ -12,8 +12,8 @@ namespace HalilDeadlift.Domain
         public string CreatedByName { get; set; } = Constants.SystemUser.Name;
         public Guid CreatedById { get; set; } = Constants.SystemUser.Id;
         public DateTime? Updated { get; set; }
-        public string UpdatedByName { get; set; } = Constants.SystemUser.Name;
-        public Guid UpdatedById { get; set; } = Constants.SystemUser.Id;
+        public string? UpdatedByName { get; set; }
+        public Guid? UpdatedById { get; set; }
         public bool IsDeleted { get; set; } = false;
         public DateTime? Deleted { get; set; }
     }

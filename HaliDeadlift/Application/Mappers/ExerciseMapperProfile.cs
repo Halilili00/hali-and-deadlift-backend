@@ -9,6 +9,7 @@ namespace HaliDeadlift.Application.Mappers
         public ExerciseMapperProfile() 
         {
             CreateMap<Exercise, GetExercisesResponse>();
+            CreateMap<ExerciseMuscleGroup, ExerciseMuscleGroupDto>();
         }
     }
 }

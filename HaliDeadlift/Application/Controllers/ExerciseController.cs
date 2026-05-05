@@ -7,9 +7,9 @@ namespace HaliDeadlift.Application.Controllers
     {
         [HttpGet(Name = "GetExercises")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ICollection<GetExercisesResponse>))]
-        public async Task<IActionResult> GetExercises()
+        public async Task<IActionResult> GetExercises([FromQuery] GetExercisesQuery query)
         {
-            return new OkObjectResult(await Mediator.Send(new GetExercisesQuery()));
+            return new OkObjectResult(await Mediator.Send(query));
         }
     }
 }

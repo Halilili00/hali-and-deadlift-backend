@@ -9,5 +9,7 @@ namespace HaliDeadlift.Application.Actions.ExerciseActions.GetExercises
         public string? Description { get; set; }
         public Difficulty Difficulty { get; set; }
         public ExerciseType ExerciseType { get; set; }
+
+        public ICollection<ExerciseMuscleGroupDto> ExerciseMuscleGroups { get; set; } = new List<ExerciseMuscleGroupDto>();
     }
 }
