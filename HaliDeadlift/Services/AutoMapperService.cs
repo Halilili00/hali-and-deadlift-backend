@@ -10,6 +10,8 @@ namespace HaliDeadlift.Services
             {
                 config.LicenseKey = configuration["LuckyPenny:LicenseKey"];
                 config.AddProfile<ExerciseMapperProfile>();
+                config.AddProfile<MuscleGroupMapperProfile>();
+                config.AddProfile<EquipmentMapperProfile>();
             });
 
             return services;
