@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Bench Press",
+    "description": "A compound exercise that targets the chest, shoulders, and triceps. It involves lying on a bench and pressing a barbell or dumbbells upward from the chest.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Barbell",
+    "muscleGroups": [
+      {
+        "name": "Chest",
+        "muscleRole": 1
+      },
+      {
+        "name": "Shoulders",
+        "muscleRole": 2
+      },
+      {
+        "name": "Triceps",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest muscles, but also engages the shoulders and triceps.",
+    "difficulty": 1,
+    "exerciseType": 1,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Chest",
+        "muscleRole": 1
+      },
+      {
+        "name": "Triceps",
+        "muscleRole": 1
+      }
+    ]
+  },
+  {
+    "name": "Squat",
+    "description": "A lower body compound exercise that targets the quadriceps, glutes, and hamstrings.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Barbell",
+    "muscleGroups": [
+      {
+        "name": "Quadriceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Glutes",
+        "muscleRole": 2
+      },
+      {
+        "name": "Hamstrings",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Deadlift",
+    "description": "A compound movement that strengthens the back, glutes, hamstrings, and core.",
+    "difficulty": 3,
+    "exerciseType": 1,
+    "equipment": "Barbell",
+    "muscleGroups": [
+      {
+        "name": "Back",
+        "muscleRole": 1
+      },
+      {
+        "name": "Hamstrings",
+        "muscleRole": 2
+      },
+      {
+        "name": "Glutes",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Pull-Up",
+    "description": "An upper body pulling exercise that targets the lats, biceps, and upper back.",
+    "difficulty": 3,
+    "exerciseType": 1,
+    "equipment": "Pull-Up Bar",
+    "muscleGroups": [
+      {
+        "name": "Lats",
+        "muscleRole": 1
+      },
+      {
+        "name": "Biceps",
+        "muscleRole": 2
+      },
+      {
+        "name": "Back",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Overhead Press",
+    "description": "A shoulder-focused pressing movement performed standing or seated.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Barbell",
+    "muscleGroups": [
+      {
+        "name": "Shoulders",
+        "muscleRole": 1
+      },
+      {
+        "name": "Triceps",
+        "muscleRole": 2
+      },
+      {
+        "name": "Core",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Barbell Row",
+    "description": "A compound pulling exercise that targets the upper and middle back.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Barbell",
+    "muscleGroups": [
+      {
+        "name": "Back",
+        "muscleRole": 1
+      },
+      {
+        "name": "Biceps",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Dumbbell Curl",
+    "description": "An isolation exercise for building the biceps using dumbbells.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Dumbbells",
+    "muscleGroups": [
+      {
+        "name": "Biceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Forearms",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Tricep Dip",
+    "description": "A bodyweight exercise that targets the triceps and chest.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Dip Bars",
+    "muscleGroups": [
+      {
+        "name": "Triceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Chest",
+        "muscleRole": 2
+      },
+      {
+        "name": "Shoulders",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Lunge",
+    "description": "A unilateral lower body exercise that improves balance and leg strength.",
+    "difficulty": 2,
+    "exerciseType": 1,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Quadriceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Glutes",
+        "muscleRole": 2
+      },
+      {
+        "name": "Hamstrings",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Leg Press",
+    "description": "A machine-based lower body exercise targeting the quadriceps and glutes.",
+    "difficulty": 1,
+    "exerciseType": 1,
+    "equipment": "Machine",
+    "muscleGroups": [
+      {
+        "name": "Quadriceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Glutes",
+        "muscleRole": 2
+      },
+      {
+        "name": "Hamstrings",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Lat Pulldown",
+    "description": "A cable machine exercise that strengthens the latissimus dorsi muscles.",
+    "difficulty": 1,
+    "exerciseType": 1,
+    "equipment": "Cable Machine",
+    "muscleGroups": [
+      {
+        "name": "Lats",
+        "muscleRole": 1
+      },
+      {
+        "name": "Biceps",
+        "muscleRole": 2
+      },
+      {
+        "name": "Back",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Plank",
+    "description": "An isometric core exercise that improves stability and endurance.",
+    "difficulty": 1,
+    "exerciseType": 3,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Core",
+        "muscleRole": 1
+      },
+      {
+        "name": "Shoulders",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Leg Curl",
+    "description": "An isolation exercise for the hamstrings performed on a machine.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Machine",
+    "muscleGroups": [
+      {
+        "name": "Hamstrings",
+        "muscleRole": 1
+      }
+    ]
+  },
+  {
+    "name": "Leg Extension",
+    "description": "An isolation exercise targeting the quadriceps using a machine.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Machine",
+    "muscleGroups": [
+      {
+        "name": "Quadriceps",
+        "muscleRole": 1
+      }
+    ]
+  },
+  {
+    "name": "Calf Raise",
+    "description": "An exercise that strengthens the calf muscles through ankle extension.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Calves",
+        "muscleRole": 1
+      }
+    ]
+  },
+  {
+    "name": "Hammer Curl",
+    "description": "A dumbbell curl variation that emphasizes the brachialis and forearms.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Dumbbells",
+    "muscleGroups": [
+      {
+        "name": "Biceps",
+        "muscleRole": 1
+      },
+      {
+        "name": "Forearms",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Chest Fly",
+    "description": "An isolation exercise that stretches and contracts the chest muscles.",
+    "difficulty": 2,
+    "exerciseType": 2,
+    "equipment": "Dumbbells",
+    "muscleGroups": [
+      {
+        "name": "Chest",
+        "muscleRole": 1
+      },
+      {
+        "name": "Shoulders",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Face Pull",
+    "description": "A cable exercise that targets the rear delts and upper back.",
+    "difficulty": 1,
+    "exerciseType": 2,
+    "equipment": "Cable Machine",
+    "muscleGroups": [
+      {
+        "name": "Rear Delts",
+        "muscleRole": 1
+      },
+      {
+        "name": "Back",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Mountain Climber",
+    "description": "A dynamic bodyweight exercise that works the core and cardiovascular system.",
+    "difficulty": 2,
+    "exerciseType": 3,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Core",
+        "muscleRole": 1
+      },
+      {
+        "name": "Shoulders",
+        "muscleRole": 2
+      },
+      {
+        "name": "Legs",
+        "muscleRole": 2
+      }
+    ]
+  },
+  {
+    "name": "Burpee",
+    "description": "A full-body conditioning exercise combining a squat, push-up, and jump.",
+    "difficulty": 3,
+    "exerciseType": 3,
+    "equipment": "Bodyweight",
+    "muscleGroups": [
+      {
+        "name": "Full Body",
+        "muscleRole": 1
+      },
+      {
+        "name": "Core",
+        "muscleRole": 2
+      }
+    ]
+  }
+]

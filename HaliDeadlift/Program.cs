@@ -1,3 +1,4 @@
+using HaliDeadlift.Configurations;
 using HaliDeadlift.Services;
 using Scalar.AspNetCore;
 using System.Text.Json.Serialization;
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddCors(builder.Configuration, appCorsPolicy);
+// Use string representation for enums in JSON
 builder.Services.AddControllers().AddJsonOptions(options => {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
@@ -17,7 +19,8 @@ builder.Services.AddMediatRService(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+await app.ConfigureDatabase();
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
