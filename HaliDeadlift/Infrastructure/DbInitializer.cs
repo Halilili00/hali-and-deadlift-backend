@@ -23,7 +23,14 @@ namespace HaliDeadlift.Infrastructure
 
                 await InitializeEquipments(dbContext, logger);
                 await InitializeMuscleGroups(dbContext, logger);
+
+                // Save parent entities first
+                await dbContext.SaveChangesAsync();
+
                 await InitializeExercises(dbContext, logger);
+
+                // Save exercises + relations
+                await dbContext.SaveChangesAsync();
 
                 await dbContext.SaveChangesAsync();
 
