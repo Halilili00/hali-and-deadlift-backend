@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HalilDeadlift.Domain;
+using HalilDeadlift.Domain.Excercises;
 using HalilDeadlift.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -27,7 +28,7 @@ namespace HaliDeadlift.Application.Actions.ExerciseActions.GetExercises
             public async Task<ICollection<GetExercisesResponse>> Handle(GetExercisesQuery request, CancellationToken cancellationToken)
             {
                 var exercisesQuery = _dbContext.Exercises
-                    .Include(exercise => exercise.ExerciseMuscleGroups)
+                    .Include(exercise => exercise.ExerciseMuscleGroups.OrderBy(exerciseMuscleGroup => exerciseMuscleGroup.MuscleRole))
                     .ThenInclude(exerciseMuscleGroup => exerciseMuscleGroup.MuscleGroup)
                     .AsNoTracking();
 
