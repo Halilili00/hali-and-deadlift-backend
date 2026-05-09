@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Barbell",
+    "description": "A long bar with weights attached at each end, used for weightlifting exercises."
+  },
+  {
+    "name": "Bench",
+    "description": "A flat or adjustable surface used for various exercises, such as bench presses and dumbbell workouts."
+  },
+  {
+    "name": "Dumbbells",
+    "description": "A short bar with weights on either end, used for strength training exercises."
+  },
+  {
+    "name": "Gym mat",
+    "description": "A cushioned mat used for floor exercises, stretching, and yoga."
+  },
+  {
+    "name": "Incline bench",
+    "description": "A bench that can be adjusted to different angles, allowing for a variety of exercises targeting different muscle groups."
+  },
+  {
+    "name": "Kettlebell",
+    "description": "A cast-iron weight with a handle, used for ballistic exercises that combine cardiovascular, strength, and flexibility training."
+  },
+  {
+    "name": "Pull-up bar",
+    "description": "A horizontal bar used for pull-ups and chin-ups, which are bodyweight exercises that target the upper body muscles."
+  },
+  {
+    "name": "Resistance band",
+    "description": "A stretchy band used for strength training and rehabilitation exercises, providing resistance to help build muscle and improve flexibility."
+  },
+  {
+    "name": "SZ-Bar",
+    "description": "A barbell with a zigzag shape, designed to reduce strain on the wrists during exercises like bicep curls and tricep extensions."
+  },
+  {
+    "name": "Swiss Ball",
+    "description": "A large inflatable ball used for stability exercises, core strengthening, and improving balance."
+  },
+  {
+    "name": "Bodyweight",
+    "description": "Using one's own body weight as resistance for exercises, such as push-ups, squats, and lunges."
+  },
+  {
+    "name": "Dip Bars"
+  },
+  {
+    "name": "Machine"
+  },
+  {
+    "name": "Cable Machine"
+  }
+]

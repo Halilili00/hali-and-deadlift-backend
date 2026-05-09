@@ -14,7 +14,7 @@ namespace HalilDeadlift.Infrastructure.Configurations
                    .WithOne(emg => emg.Exercise)
                    .HasForeignKey(emg => emg.ExerciseId);
 
-            builder.HasOne(e => e.Eqipment)
+            builder.HasOne(e => e.Equipment)
                    .WithMany(eq => eq.Exercises)
                    .HasForeignKey(e => e.EquipmentId);
         }
