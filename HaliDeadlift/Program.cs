@@ -21,11 +21,13 @@ var app = builder.Build();
 
 await app.ConfigureDatabase();
 
-if (app.Environment.IsDevelopment())
+app.Use((context, next) =>
 {
-    app.MapOpenApi();
-}
+    context.Request.Scheme = "https";
+    return next(context);
+});
 
+app.MapOpenApi();
 app.MapScalarApiReference();
 
 app.UseHttpsRedirection();
